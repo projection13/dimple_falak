@@ -1,0 +1,629 @@
+ *{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: "Playball", cursive;
+}
+.block{
+	background-color: #fffcf8;
+	padding: 120px;
+}
+.block h1{
+	        font-size: 77px;
+}
+.block .about_breadcurumgd .breadcrumb-item a{
+	color: #d4a762;
+}
+/*------------------navbar------------------*/
+.demo .navbar{ 
+	background-color: #fffcf8;
+}
+.demo .navbar .navbar-brand{
+   font-family: "Playball", cursive;
+}
+.demo .navbar-expand-lg .navbar-nav{
+        
+    }
+.demo .navbar-expand-lg .navbar-nav li a{
+	font-size: 18px;
+	font-weight: 500;
+}
+.demo .navbar-expand-lg .navbar-nav li .active{
+	color: #d4a762;
+}
+.demo .navbar a span{
+	color: #d4a762;
+}
+.demo .navbar .btn{
+	background-color: #d4a762;
+}
+.demo .navbar .button{
+    padding: 10px 15px;
+}
+/*------------------welcome------------------*/
+.welcome{
+	background-color: #fffcf8;
+}
+.welcome .wel{
+	padding: 150px 0px;
+}
+.welcome .wel p{
+	border: 1px solid #d4a762;
+	border-radius: 30px;
+	font-weight: 600;
+}
+.welcome .wel h1{
+	font-family: "Playball", cursive;
+	font-size: 80px;
+}
+.welcome .wel .wel_button a{
+	background-color: #d4a762;
+}
+.welcome .wel .wel_button a:hover{
+	background-color: black;
+	color: #d4a762;
+}
+/*------------------about us------------------*/
+.about{
+	margin-top: 200px;
+}
+.about .about_text h6{
+    border: 1px solid #d4a762;
+    background-color: #fffcf8;
+}
+.about .about_text h1{
+	font-family: "Playball", cursive;
+	font-size: 45px;
+}
+.about .about_text p{
+	font-size: 18px;
+}
+.about .about_text .about_button{
+	background-color: #d4a762;
+}
+.about .about_text .about_button:hover{
+	background-color: black;
+	color: #d4a762;
+}
+.about .about_text .about_it li{
+     list-style-type: none;
+}
+.about .about_text .about_it li a span{
+	color: #d4a762;
+}
+@media (min-width:768px) and (max-width:992px){
+	.about_text{
+	    margin-top: 70px;
+	}
+}
+/*------------------video------------------*/
+.video{
+	margin: 120px;
+}
+.video .box{
+	padding: 30px 0px 30px 0px;
+	border-radius: 10px;
+	background-color: #d4a762;
+}
+.video .box h2{
+    font-size: 55px;
+}
+.video .box h1{
+	font-family: "Playball", cursive;
+	font-size: 55px;
+}
+.video img{
+	max-width: 90%;
+}
+.video .video_image{
+	display: block;
+	position: relative;
+}
+.video .video_icon{
+	position: absolute;
+	bottom: 190px;
+    left: 215px;
+}
+.video .video_image .video_icon .vi{
+	    padding: 20px 20px 20px 33px
+}
+@media (min-width:768px) and (max-width:992px){
+  .video .video_icon{
+    bottom: 278px;
+    left: 294px;
+  }
+  .video img{
+    margin-top: 34px;
+  }
+}
+/*------------------our services------------------*/
+.our_service{
+	margin-top: 200px;
+}
+.our_service .service_topic h1{
+	font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.our_service .service_topic h6{
+	border: 1px solid #d4a762;
+	background-color: #fffcf8;
+}
+.our_service .service_box{
+	padding: 35px 0px 35px 0px;
+	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	background-color: #fffcf8;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+} 
+.our_service .service_box::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #d4a762;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: -1;
+	transform: translateY(-100%);
+	transition: .5s all ease;
+}
+.our_service .service_box:hover::after{
+	transform: translateY(0%);
+}
+.service_item .service_box span{
+	color: #d4a762;
+}
+.service_item:hover .service_box span{
+	color: black;
+}
+.service_item .service_box p{
+	color: gray;
+	font-size: 18px;
+}
+.service_item:hover .service_box p{
+	color: white;
+}
+.service_item .service_box  a{
+	background-color: #d4a762;
+	font-size: 17px;
+	font-weight: 600;
+}
+.service_item:hover .service_box a{
+	background-color: white;
+}
+.service_item .service_box a:hover{
+	background-color: black;
+	color: #d4a762;
+	border: 1px solid black;
+}
+.service_item .sbox{
+	margin-top: 55px;
+}
+@media (min-width:768px) and (max-width:992px){
+.service_item .sbox{
+	margin-top: 55px;
+}
+}
+/*------------------latest------------------*/
+.latest{
+	margin-top: 200px;
+}
+.latest .latest_topic h1{
+	font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.latest .latest_topic h6{
+	border: 1px solid #d4a762;
+	background-color: #fffcf8;
+}
+.latest .latest_button ul li a{
+	border: 1px solid #d4a762;
+	background-color: #fffcf8;
+}
+.latest .latest_button ul li a:hover{
+	background-color: #d4a762;
+}
+.latest .latest_event .latest_event_image{
+	position: relative;
+}
+.latest .latest_event .latest_event_image img{
+	border-radius: 20px;
+	max-width: 100%;
+}
+.latest .latest_event .latest_event_text{
+	position: absolute;
+	display: none;
+    background-color: #d4a762;
+    opacity: 0.8;
+    border-radius: 20px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.latest .latest_event .latest_event_image:hover .latest_event_text{
+    display: block;
+}
+.latest .latest_event .latest_event_image .latest_event_text h3{
+	padding-top: 65px;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.latest .latest_event .latest_event_image .latest_event_text h4{
+	color: black;
+	font-weight: 600;
+}
+@media (min-width:768px) and (max-width:992px){
+	.latest .latest_event .latest_event_image .latest_event_text h3{
+		text-align: center;
+	}
+}
+/*------------------our menu------------------*/
+.our_menu{
+	margin-top: 130px;
+	background-color: #fffcf8;
+	padding-top: 100px;
+	padding: 100px 0px 100px 0px;
+}
+.our_menu .our_menu_topic h1{
+	font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.our_menu .our_menu_topic h6{
+	border: 1px solid #d4a762;
+	background-color: #fffcf8;
+}
+.our_menu .our_menu_button ul li a{
+	border: 1px solid #d4a762;
+	background-color: #fffcf8;
+}
+.our_menu .our_menu_button ul li a:hover{
+	background-color: #d4a762;
+}
+.our_menu .menu img{
+	max-width: 100%;
+}
+.our_menu .menu .menu_text{
+	border-bottom: 1px solid #d4a762;
+	padding-bottom: 10px;
+}
+.our_menu .menu .menu_text h4 span{
+	color: #d4a762;
+}
+.our_menu .menu p{
+	font-size: 17px;
+}
+@media (min-width:768px) and (max-width:992px){
+    .menu{
+    	margin-top: 50px;
+    }
+    .our_menu .menu p {
+    font-size: 26px;
+}
+}
+/*------------------book us------------------*/
+.book_us{
+	margin-top: 130px;
+}
+.book_us .book_us_text h6{
+	border: 1px solid #d4a762;
+}
+.book_us .book_us_text h1{
+    font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.book_us .book_us_text{
+	background-color: #fffcf8;
+	padding: 38px;
+	border-bottom: 1px solid #d4a762;
+	border-top: 1px solid #d4a762;
+	border-radius: 8px;
+}
+.book_us .book_us_text button{
+  border: 1px solid #d4a762;
+  background-color: #d4a762;
+  font-weight: 700;
+}
+.book_us .book_us_text button:hover{
+	color: #d4a762;
+	background-color: black;
+}
+.book_us .book_us_text button {
+    margin-left: 141px;
+}
+.book_us .img-fluid {
+    max-width: 100%;
+    height: 484px;
+}
+@media (min-width:768px) and (max-width:992px){
+   .book_us .book_us_text h1 {
+    font-size: 40px;
+   }
+   .book_us .img-fluid {
+    height: 834px;
+   }
+}
+/*------------------our team------------------*/
+.our_team{
+	margin-top: 200px;
+}
+.our_team .our_team_topic h1{
+   font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.our_team .our_team_topic h6{
+	background-color: #fffcf8;
+	border: 1px solid #d4a762;
+}
+.team_item {
+    position: relative;
+}
+
+.team_item .team_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.team_item .team_icon .share{
+	padding: 11px 15px;
+	background-color: #d4a762;
+}
+.team_item .team_icon .share-link {
+    opacity: 0;
+    transition: 0.9s;
+    background-color: #d4a762;
+    padding: 11px 15px;
+}
+.team_item:hover .share-link {
+    opacity: 1;
+}
+.team_item .team_content {
+    transition: 0.9s;
+    color: white;
+}
+.team_item:hover .team_content {
+    background: #d4a762;
+    color: black;
+}
+.team_item .team_content h3{
+	color: #d4a762;
+}
+.team_item:hover .team_content h3 {
+    color: black;
+}
+.team_item:hover .team_content p {
+    color: white;
+}
+@media (min-width:768px) and (max-width:992px){
+	.team_item{
+        max-width: 79%;
+        margin: auto;
+	}
+}
+/*------------------testimonial------------------*/
+.testimonial{
+	margin-top: 200px;
+}
+.testimonial .testimonial_topic h1{
+   font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.testimonial .testimonial_topic h6{
+	background-color: #fffcf8;
+	border: 1px solid #d4a762;
+}
+.texti .teximonial_scroll{
+	background-color: #fffcf8;
+}
+.texti .teximonial_scroll .textimonial_icon span{
+	margin-left:70px;
+}
+.texti .teximonial_scroll .textimonial_item p{
+    color: #d4a762;
+}
+@media (min-width:768px) and (max-width:992px){
+	.textimonial_icon{
+       margin-left: 200px;
+	}
+}
+/*------------------our blog------------------*/
+.our_blog{
+	margin-top: 200px;
+}
+.our_blog .our_blog_topic h1{
+   font-family: "Playball", cursive;
+	font-size: 50px;
+}
+.our_blog .our_blog_topic h6{
+	background-color: #fffcf8;
+	border: 1px solid #d4a762;
+}
+.our_blog .our_blog_image .our_blog_text .our_blog_date{
+	background-color: #d4a762;
+	border-radius: 20px 0px 0px 20px;
+}
+.our_blog .our_blog_image .our_blog_text{
+	background-color: #fffcf8;
+	border-radius: 20px;
+	position: absolute;
+	bottom: -42px;
+    left: 8px;
+    width: 396px;
+}
+.our_blog .our_blog_image{
+	position: relative;
+}
+.our_blog .our_blog_image .blog{
+    overflow: hidden;
+    cursor:pointer;
+}
+.our_blog .our_blog_image img{
+    object-fit: cover;
+    transition: 1s ease;
+}
+.our_blog .our_blog_image img:hover{
+    transform: scale(1.5,1.5);
+}
+@media (min-width:768px) and (max-width:992px){
+     .our_blog .our_blog_image img{
+     	margin-top: 95px;
+     }
+     .our_blog .our_blog_image .our_blog_text{
+		bottom: -53px;
+		left: 93px;
+	    width: 507px;
+	    height: 106px;
+    }
+    .our_blog .our_blog_image .blog{
+      overflow: hidden;
+      cursor:pointer;
+    }
+}
+/*------------------contact--------------------*/
+.contact{
+	margin-top: 200px;
+}
+.contact .container{
+	background-color: #fffcf8;
+	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	padding: 45px 0px 45px 0px;
+}
+.contact h6{
+	border: 1px solid #d4a762;
+}
+.contact h1{
+	font-size: 50px;
+}
+.contact .contact_box p{
+	font-size: 17px;
+}
+.contact .contact_box p span{
+	color: #d4a762;
+}
+.contact .contact_box input{
+     width: 100%;
+     border: 1px solid #d4a762;
+     background-color: #fffcf8;
+}
+.contact .contact_box input:hover{
+	border: 1px solid #d4a762;  
+	box-shadow: 5px 5px 5px #d4a762,-5px -5px 5px #d4a762;         
+}
+.contact .contact_box a{
+	padding: 312px;
+	background-color: #d4a762;
+	font-weight: 600;
+	border-radius: 8px;
+}
+.contact .contact_box a:hover{
+	background-color: black;
+	color: #d4a762;
+}
+.contact .contact_box_item{
+	border: 1px solid #d4a762;
+}
+.contact .contact_box_item .contact_icon span{
+	color: #d4a762;
+}
+/*------------------cater serv------------------*/
+.cater_serv{
+	margin-top: 300px;
+	background-color: #fffcf8;
+	padding-top: 100px;
+}
+.cater_serv .cater h1{
+	font-family: "Playball", cursive;
+}
+.cater_serv .cater h1 span{
+	color: #d4a762;
+}
+.cater_serv .cater p{
+	font-size: 17px;
+	line-height: 35px;
+}
+.cater_serv .cater_icon a{
+	background-color: #d4a762;
+}
+.cater_serv .cater_icon a:hover{
+    color: #d4a762;
+    background-color: black;
+}
+.cater_serv .special_facilities h4{
+	font-size: 27px;
+}
+.cater_serv .special_facilities li{
+	list-style-type: none;
+}
+.cater_serv .special_facilities a{
+	font-size: 17px;
+}
+.cater_serv .special_facilities li a span{
+	color: #d4a762;
+}
+.cater_serv .contact_us h4{
+	font-size: 27px;
+}
+.cater_serv .contact_us p span{
+	color: #d4a762;
+}
+.cater_serv .social_gallery h4{
+	font-size: 27px;
+}
+.cater_serv .social_gallery .social_gallery_image .img-fluid{
+	border: 1px solid #d4a762;
+	padding: 10px;
+	height: 100px;
+}
+@media (min-width:768px) and (max-width:992px){
+	.special_facilities{
+        margin-top: 70px;
+	}
+	.contact_us{
+        margin-top: 70px;
+	}
+	.social_gallery{
+        margin-top: 70px;
+	}
+}
+}
+/*-------------up icon---------------*/
+.up{
+	position: sticky;
+}
+.up .icon p{
+	background-color: #d4a762;
+    padding: 16px 20px;
+    color: black;
+}
+.up .icon p:hover{
+	background-color: black;
+	color: #d4a762;
+}
+/*------------------site------------------*/
+.site{
+	/*margin-top: 100px;*/
+}
+.site p{
+	font-size: 17px;
+}
+.site a{
+	color: #d4a762;
+	font-size: 17px;
+	border-bottom: 1px solid white;
+	padding: 2px;
+}
+.site a:hover{
+	color: #aa864e;
+}
+@media (min-width:768px) and (max-width:992px){
+.site p{
+    font-size: 17px;
+    text-align: center;
+}
+.site .site_text p{
+	margin-right: 107px;
+}
+}
